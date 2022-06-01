@@ -1,0 +1,42 @@
+/* 巨幕 */
+.jumbotron {
+	background: url(../img/banner.png) no-repeat center right;
+	border-radius: 0;
+	height: 280px;
+}
+
+.jumbotron h2 {
+	font-weight: 900;
+	letter-spacing: 0.8rem;
+	margin-bottom: 1rem;
+}
+/* 卡片 */
+.card p {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+	overflow: hidden;
+	text-align: justify;
+}
+/* 媒体对象 */
+.post>.media {
+	margin-bottom: 1.5rem;
+}
+
+.post h3 {
+	padding-bottom: 1.25rem;
+}
+
+.post h5 {
+	font-size: 1.1rem;
+}
+
+.post p {
+	margin: 0;
+}
+
+.post img {
+	width: 35%;
+	max-width: 85px;
+	margin-right: 0.9375rem;
+}
